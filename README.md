@@ -13,5 +13,7 @@ fetch('')
 
 npm install axios
 
+import axios from 'axios'
+
 axios.get('https://api.publicapis.org/entries')
 .then(res=>console.log(res.data))
