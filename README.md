@@ -2,10 +2,10 @@
 
 ## Using fetch
 
-fetch('')
-.then(res=>res.json())
-.then(data=>console.log(data))
-.catch(err=>console.log(err.message))
+    fetch('')
+    .then(res=>res.json())
+    .then(data=>console.log(data))
+    .catch(err=>console.log(err.message))
 
 ## using Axios
 
@@ -15,5 +15,5 @@ npm install axios
 
 import axios from 'axios'
 
-axios.get('https://api.publicapis.org/entries')
-.then(res=>console.log(res.data))
+    axios.get('https://api.publicapis.org/entries')
+    .then(res=>console.log(res.data))
